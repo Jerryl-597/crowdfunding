@@ -17,9 +17,10 @@
   --stat-heading-clr: hsla(0, 0%, 100%, 0.6);
   --font-weight-1: 700;
   --font-weight-2: 400;
-  --font-family-1: "Commissioner", cursive;
-  --font-family-2: "Commissioner", cursive;
+  --font-family-1: "Commissioner", sans-serif;
+  --font-family-2: "Commissioner", sans-serif;
   --transition: all 0.3s linear;
+  font-family: sans-serif;
 }
 p,
 h1,
