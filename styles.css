@@ -574,7 +574,7 @@ head {
 }
 .third-modal {
   width: 22rem;
-  height: 129rem;
+  height: 131rem;
   padding-top: 2.5rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -589,7 +589,7 @@ head {
 }
 @media screen and (min-width: 772px) {
   .third-modal {
-    width: 37rem;
+    width: 42rem;
     height: 103rem;
   }
 }
@@ -737,7 +737,7 @@ head {
     height: 12rem;
   }
   .pledge-one {
-    width: 33rem;
+    width: 38rem;
     height: 21rem;
   }
   .class {
@@ -755,9 +755,9 @@ head {
     display: flex;
   }
   .pledge-num-one {
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
     font-weight: var(--font-weight-1);
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-right: 0.5rem;
     display: flex;
   }
@@ -774,6 +774,10 @@ head {
   }
   .pledge-stock-new {
     display: flex;
+    /* border: 2px solid red; */
+    margin-left: 7rem;
+    /* padding-left: 2rem; */
+    /* padding-right: 1.5rem; */
   }
   .pledge-stock-new .open {
     display: block;
@@ -786,6 +790,10 @@ head {
     height: 12px;
     border-radius: 50%;
     background: var(--button-clr);
+  }
+  .class,
+  .pledge-stock-new {
+    font-size: 15px;
   }
 }
 
