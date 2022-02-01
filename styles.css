@@ -34,7 +34,7 @@ h6 {
 
 body {
   background-color: hsla(0, 0%, 95%, 0.6);
-  min-width: 90vw;
+  min-width: 100vw;
   position: relative;
 }
 /* modal overlay */
