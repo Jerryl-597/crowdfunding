@@ -360,7 +360,7 @@ head {
 }
 .three {
   width: 22rem;
-  height: 105rem;
+  height: 109rem;
   padding-top: 2.5rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -386,7 +386,7 @@ head {
 @media screen and (min-width: 772px) {
   .three {
     width: 37rem;
-    height: 77rem;
+    height: 79rem;
     padding: 2rem;
   }
 }
@@ -408,6 +408,11 @@ head {
 .ad-pledge {
   color: rgb(39, 182, 182);
   font-weight: 500;
+}
+.ad-title,
+.ad-info,
+.ad-pledge {
+  font-size: 15px;
 }
 .title-flex {
   margin-bottom: 2rem;
@@ -719,7 +724,14 @@ head {
 .pledge-new {
   display: none;
 }
-
+.pledge-info,
+.pledge-title,
+.ad-pledge {
+  font-size: 15px;
+}
+.faint {
+  height: 26rem;
+}
 @media screen and (min-width: 772px) {
   .pledge-value {
     display: flex;
@@ -802,6 +814,7 @@ head {
 }
 .modal-screen {
   text-align: center;
+  margin-top: 5rem;
   margin-bottom: 2rem;
   font-size: 30px;
   color: var(--button-clr);
