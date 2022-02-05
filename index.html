@@ -11,6 +11,7 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Commissioner">
     <link rel="stylesheet" href="styles.css" />
 
     <title>Frontend Mentor | Crowdfunding product page</title>
@@ -46,8 +47,11 @@
         />
       </div>
       <!-- hero page -->
+        <div class="fixed hide-three">
+      <div class="overlay "></div>
+      </div> 
       <section class="whole-sections">
-        <section class="section">
+        <section class="section section-one">
           <article class="one">
             <div class="one-img">
               <img src="./images/logo-mastercraft.svg" alt="" class="first" />
@@ -61,7 +65,7 @@
             </div>
             <div class="submit-one">
               <div class="flex-one">
-                <button type="submit" class="but-one">Back this project</button>
+                <button type="submit" class="but-one button-one">Back this project</button>
               </div>
               <div class="but-con">
                 <div class="but-conone">
@@ -78,7 +82,7 @@
             </div>
           </article>
         </section>
-        <section class="section">
+        <section class="section section-two">
           <article class="two">
             <div class="number">
               <div class="num-one">
@@ -102,7 +106,7 @@
             </div>
           </article>
         </section>
-        <section class="section">
+        <section class="section section-three">
           <article class="three">
             <h2 class="about-title">About this project</h2>
             <p class="about-info">
@@ -137,7 +141,7 @@
                   <p class="ad-num-text">left</p>
                 </div>
                 <div class="ad-button">
-                  <button type="submit" class="ad-but">Select Reward</button>
+                  <button type="submit" class="ad-but button-one">Select Reward</button>
                 </div>
               </div>
             </article>
@@ -157,14 +161,14 @@
                   <p class="ad-num-text">left</p>
                 </div>
                 <div class="ad-button">
-                  <button type="submit" class="ad-but">Select Reward</button>
+                  <button type="submit" class="ad-but button-one">Select Reward</button>
                 </div>
               </div>
             </article>
             <article class="three-one faint">
               <div class="title-flex">
                 <h3 class="ad-title adone">Mahogany Special Edition</h3>
-                <p class="ad-pledge adtwo">Pledge $25 or more</p>
+                <p class="ad-pledge adtwo">Pledge $200 or more</p>
               </div>
               <p class="ad-info adthree">
                 You get two Special Edition Mahogany stands, a Backer T-Shirt,
@@ -185,12 +189,24 @@
             </article>
           </article>
         </section>
-<h2 class="modal-screen">Below are the modal screens</h2>
-        <section class="section modal">
+                  <!-- <h2 class="modal-screen">Below are the modal screens</h2> -->
+       
+        <footer class="footer">
+          <div class="attribution">
+            Challenge by
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank"
+              >Frontend Mentor</a
+            >. Coded by <a href="#">Jeremiah Lateef</a>.
+          </div>
+        </footer>
+      </section>
+       <section class="section modal">
           <!-- =============
          First Modal
         =================-->
-          <article class="first-modal">
+          <article class="first-modal hide-three">
             <div class="modal-img">
               <img src="./images/icon-check.svg" alt="" class="modalpic" />
             </div>
@@ -201,7 +217,7 @@
               an email once our campaign is completed. !
             </p>
             <div class="modal-cont">
-              <button type="submit" class="modal-button">Got it!</button>
+              <button type="submit" class="modal-button button-two">Got it!</button>
             </div>
           </article>
           <!-- =============
@@ -210,7 +226,7 @@
           <!-- =============
              Second Modal
            =================-->
-          <article class="second-modal">
+          <article class="second-modal hide-two">
             <div class="menu">About</div>
             <!-- <hr class="line-two"> -->
             <div class="menu one-mod">Discover</div>
@@ -223,7 +239,7 @@
           <!-- =============
            Third Modal
             =================-->
-          <article class="third-modal">
+          <article class="third-modal hide-three">
             <div class="cancel">
               <div class="cancel-cont">
                 <h2 class="third-title">Back this project</h2>
@@ -232,7 +248,7 @@
                 <img
                   src="./images/icon-close-modal.svg"
                   alt=""
-                  class="cancel-icon"
+                  class="cancel-icon button-four"
                 />
               </div>
             </div>
@@ -272,7 +288,7 @@
                 <div class="pledge-flex">
                   
                   <div class="pledge-button">
-                    <button type="submit" class="pledge-but">Continue</button>
+                    <button type="submit" class="pledge-but button-three">Continue</button>
                   </div>
                 </div>
               </div>
@@ -322,7 +338,7 @@
                   </div>
 
                   <div class="pledge-button">
-                    <button type="submit" class="pledge-but">Continue</button>
+                    <button type="submit" class="pledge-but button-three">Continue</button>
                   </div>
                 </div>
               </div>
@@ -371,7 +387,7 @@
                   </div>
 
                   <div class="pledge-button">
-                    <button type="submit" class="pledge-but">Continue</button>
+                    <button type="submit" class="pledge-but button-three">Continue</button>
                   </div>
                 </div>
               </div>
@@ -420,7 +436,7 @@
                   </div>
 
                   <div class="pledge-button">
-                    <button type="submit" class="pledge-but">Continue</button>
+                    <button type="submit" class="pledge-but button-three">Continue</button>
                   </div>
                 </div>
               </div> 
@@ -430,48 +446,9 @@
             End of Third Modal
               =================-->
         </section>
-        <footer class="footer">
-          <div class="attribution">
-            Challenge by
-            <a
-              href="https://www.frontendmentor.io?ref=challenge"
-              target="_blank"
-              >Frontend Mentor</a
-            >. Coded by <a href="#">Jeremiah Lateef</a>.
-          </div>
-        </footer>
-      </section>
-      <!-- Selection modal start -->
-      <!-- Bamboo Stand Pledge $25 or more You get an ergonomic stand made of natural
-      bamboo. You've helped us launch our promotional campaign, and you’ll be
-      added to a special Backer member list. 101 left -->
+   
 
-      <!-- Selected pledge start -->
-      <!-- Enter your pledge $25 Continue -->
-      <!-- Selected pledge end -->
-
-      <!-- Black Edition Stand Pledge $75 or more You get a Black Special Edition
-      computer stand and a personal thank you. You’ll be added to our Backer
-      member list. Shipping is included. 64 left -->
-
-      <!-- Selected pledge start -->
-      <!-- Enter your pledge $75 Continue -->
-      <!-- Selected pledge end -->
-
-      <!-- Mahogany Special Edition Pledge $200 or more You get two Special Edition
-      Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be
-      added to our Backer member list. Shipping is included. 0 left -->
-
-      <!-- Selected pledge  start -->
-      <!-- Enter your pledge $200 Continue  -->
-      <!-- Selected pledge end -->
-
-      <!-- Selection modal end -->
-
-      <!-- Success modal start -->
-
-      <!-- Success modal end -->
-      <!-- <div class="overlay"></div> -->
+    
     </main>
     <script src="script.js"></script>
   </body>
