@@ -38,6 +38,7 @@ body {
 
 .main {
   position: relative;
+  width: 90vw;
 }
 .header {
   position: absolute;
@@ -117,7 +118,7 @@ body {
 }
 .one {
   position: relative;
-  width: 80%;
+  width: 90%;
   height: 17rem;
   padding-top: 4rem;
   padding-left: 2rem;
