@@ -34,13 +34,15 @@ p {
 }
 body {
   background-color: hsla(0, 0%, 95%, 0.6);
-  min-width: 100vw;
+  min-width: 90vw;
   position: relative;
+  /* overflow-x: hidden; */
 }
 
 .main {
   position: relative;
   width: 90vw;
+  min-height: 100vh;
 }
 .header {
   position: absolute;
@@ -67,7 +69,7 @@ body {
 } */
 .hero-cont {
   position: relative;
-  min-width: 100vw;
+  width: 100vw;
   height: 15rem;
   margin: 0;
   z-index: -1;
@@ -82,7 +84,7 @@ body {
   .hero-cont-two {
     position: relative;
     display: flex;
-    width: 100%;
+    width: 100vw;
     height: 15rem;
     margin: 0;
     z-index: -1;
@@ -99,29 +101,32 @@ body {
 .section {
   padding-left: 2rem;
   padding-right: 2rem;
-  width: 100vw;
+  width: 100%;
   height: 100%;
-  /* position: relative; */
 }
-/* .section-one {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: -50px;
-  margin-bottom: 5rem;
-} */
+
 .whole-sections {
   /* border: 2px solid red; */
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-45%);
   margin-top: -50px;
-  width: 90vw;
+  width: 100%;
 }
+/* @media screen and (min-width: 772px) {
+  .section {
+    width: 90vw;
+    left: 50%;
+  }
+  .wholesections {
+    left: 50%;
+    width: 90vw;
+  }
+} */
 .one {
   position: relative;
   width: 100%;
-  height: 17rem;
+  height: 20%;
   padding-top: 4rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -170,11 +175,12 @@ head {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  justify-content: center;
 }
 .but-one {
   display: inline-block;
   padding: 1rem;
-  width: 13rem;
+  width: 11rem;
   height: 3rem;
   margin-right: 0.5rem;
   border-top-left-radius: 1.5rem;
@@ -241,8 +247,8 @@ head {
 }
 .two {
   position: relative;
-  width: 22rem;
-  height: 25rem;
+  width: 100%;
+  height: 20%;
   padding-top: 2.5rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -352,8 +358,8 @@ head {
   }
 }
 .three {
-  width: 22rem;
-  height: 109rem;
+  width: 100%;
+  height: 200%;
   padding-top: 2.5rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -384,8 +390,8 @@ head {
   }
 }
 .three-one {
-  width: 18rem;
-  height: 24rem;
+  width: 100%;
+  height: 20%;
   border: 1px solid hsl(0, 0%, 10%, 0.3);
   padding: 2rem;
   margin-right: auto;
@@ -491,12 +497,20 @@ head {
 /* left: 50%;
   ;
   margin-top: -50px; */
+.modal {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -50px;
+  /* z-index: 3; */
+  z-index: 2;
+  width: 100%;
+}
 
 .first-modal {
   position: absolute;
-  width: 22rem;
-  height: 26rem;
-  /* border: 1px solid hsl(0, 0%, 10%, 0.3); */
+  width: 18rem;
+  height: 28rem;
   padding: 2rem;
   margin-right: auto;
   margin-left: auto;
@@ -506,7 +520,7 @@ head {
   background-color: var(--heading-stats-clr);
   /* z-index: 7; */
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-40%);
 }
 .modal-img {
   margin-bottom: 2rem;
@@ -579,8 +593,8 @@ head {
   border-bottom: 0.5px solid hsl(0, 0%, 10%, 0.2);
 }
 .third-modal {
-  width: 22rem;
-  height: 131rem;
+  width: 20rem;
+  height: 140rem;
   padding-top: 2.5rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -634,8 +648,8 @@ head {
   line-height: 1.4;
 }
 .pledge-one {
-  width: 18rem;
-  height: 29rem;
+  width: 100%;
+  height: 22%;
   border: 1px solid hsl(0, 0%, 10%, 0.3);
   padding: 2rem;
   margin-right: auto;
@@ -646,7 +660,7 @@ head {
 }
 
 .reward-one {
-  height: 23.5rem;
+  height: 20%;
 }
 .pledge-modal-one {
   border-top: 1px solid hsl(0, 0%, 10%, 0.3);
@@ -740,7 +754,7 @@ head {
   font-size: 15px;
 }
 .faint {
-  height: 26rem;
+  height: 20%;
 }
 @media screen and (min-width: 772px) {
   .faint {
@@ -862,6 +876,7 @@ head {
 .pledge-small-title {
   margin-bottom: 1rem;
   text-align: center;
+  max-width: 100%;
   color: hsl(0, 0%, 10%, 0.75);
 }
 
@@ -879,7 +894,7 @@ head {
   display: block;
   padding-left: 1rem;
   padding-right: 1rem;
-  width: 7rem;
+  width: 6rem;
   height: 3rem;
   border-top-left-radius: 1.5rem;
   border-bottom-left-radius: 1.5rem;
@@ -909,7 +924,7 @@ head {
   display: block;
   padding-left: 1rem;
   padding-right: 1rem;
-  width: 7rem;
+  width: 6rem;
   height: 3rem;
   margin-right: 1rem;
   border-top-left-radius: 1.5rem;
@@ -926,14 +941,7 @@ head {
 .whole-sections {
   z-index: -1;
 }
-.modal {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: -50px;
-  /* z-index: 3; */
-  z-index: 2 !important;
-}
+
 .fixed {
   position: fixed;
   height: 100%;
