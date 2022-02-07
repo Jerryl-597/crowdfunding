@@ -29,7 +29,9 @@ h5,
 h6 {
   font-family: "Commissioner", sans-serif;
 }
-
+p {
+  font-size: 15px;
+}
 body {
   background-color: hsla(0, 0%, 95%, 0.6);
   min-width: 100vw;
@@ -69,7 +71,6 @@ body {
   height: 15rem;
   margin: 0;
   z-index: -1;
-  border: 2px solid red;
 }
 .hero-cont-two {
   display: none;
@@ -115,10 +116,11 @@ body {
   left: 50%;
   transform: translateX(-50%);
   margin-top: -50px;
+  width: 90vw;
 }
 .one {
   position: relative;
-  width: 90%;
+  width: 100%;
   height: 17rem;
   padding-top: 4rem;
   padding-left: 2rem;
@@ -156,6 +158,7 @@ head {
   margin-left: auto;
   margin-bottom: 1.2rem;
   color: #222;
+  font-size: 17px;
 }
 .para-one {
   text-align: center;
