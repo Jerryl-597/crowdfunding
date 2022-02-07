@@ -96,6 +96,8 @@ body {
 .section {
   padding-left: 2rem;
   padding-right: 2rem;
+  width: 100vw;
+  height: 100%;
   /* position: relative; */
 }
 /* .section-one {
@@ -114,7 +116,7 @@ body {
 }
 .one {
   position: relative;
-  width: 22rem;
+  width: 60%;
   height: 17rem;
   padding-top: 4rem;
   padding-left: 2rem;
